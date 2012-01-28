@@ -1,0 +1,140 @@
+/* 
+<Firechip™ IDE: Is a free (GNU) source code editor for electronics designer.>
+ Copyright © 2012 "Alexander Salas" <alexander@firechip.info>
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by 
+ the Free Software Foundation, either version 3 of the License, or
+ any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.*/
+
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT_DLG DIALOGEX 0, 0, 186, 74
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    LTEXT           "1.0.0.0",IDC_STATIC,45,23,37,8
+    LTEXT           "Notepad++ Plugin Manager",IDC_STATIC,7,7,90,8
+    LTEXT           "(C) 2009-2011 Dave Brotherstone",IDC_STATIC,12,37,74,8
+    LTEXT           "Enero 2012",IDC_STATIC,35,50,50,8
+    LTEXT           "Version",IDC_STATIC,14,23,24,8
+END
+
+117 DIALOG 0, 0, 185, 114
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",3,67,87,50,14
+    LTEXT           "The CCS C compiler is not installed on this computer.  If you own the product re-install it.  \n ",-1,15,14,156,21
+    LTEXT           "Click here for product and ordering  information",-1,19,36,152,8
+    LTEXT           "http://www.ccsinfo.com/picc",312,27,45,94,8
+    LTEXT           "Click here for a free demo",-1,13,61,159,8
+    LTEXT           "http://www.ccsinfo.com/demo.html",313,27,72,113,8
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000904b0"
+        BEGIN
+            VALUE "CompanyName", "Firechip SRL"
+            VALUE "FileDescription", "CCS C Compiler for PIC12/14/16/18"
+            VALUE "FileVersion", "1, 0, 0, 0"
+            VALUE "InternalName", "Ccsc"
+            VALUE "LegalCopyright", "Alexander Salas © 2012"
+            VALUE "OriginalFilename", "FirechipPluginPICC.dll"
+            VALUE "ProductName", "CCS C Compiler"
+            VALUE "ProductVersion", "1, 0, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x9, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_RUN_CCSC            BITMAP                  "Ccsc.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDC_RUN_CCSC            ICON                    "Ccsc.ico"
+#endif    // English resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
